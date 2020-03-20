@@ -82,7 +82,7 @@ To complete this Workshop you will work from local files. You can either use the
 
 > **Important Note!** If you are being provided an account by your instructor (see Option 4 in Activity 1), you do not need to complete this activity.  
 
-Before arriving at the workshop, if you intend to complete `04-SQLServerOnTheMicrosoftAzurePlatform` and/or `05-MigratingToAzureSQL`, you must complete the prerequisites outlined [here](../lab-files/Module4and5Prerequisites.md). Note that all screenshots are provided, so you can "audit" this part of the Workshop if you like. 
+Before arriving at the workshop, if you intend to complete `04-SQLServerOnTheMicrosoftAzurePlatform` and/or `05-MigratingToAzureSQL`, you must complete the prerequisites outlined [here](https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/lab-files/Module4and5Prerequisites.md). Note that all screenshots are provided, so you can "audit" this part of the Workshop if you like. 
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 

@@ -45,30 +45,30 @@ With the `TailspinToys` database now running on SQL MI in Azure, the next step i
 
 
 
-<h3><p><img style="float: left; margin: 0px 5px 5px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/point1.png?raw=true"><a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-1">Activities</h3></p></a>
+<h3><p><img style="float: left; margin: 0px 5px 5px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/point1.png?raw=true"><a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-1">Activities</h3></p></a>
 
 Complete activities 1-9 by following the links below. Once you're in Activity 1, you can continue to the next activity through Activity 9 (the links below all point to different parts of the same overall lab). When are you done with activities 1-9, come back here for the next section (5.2).   
 
 > **Note**:  
 > If you were provided an environment to do this workshop, you should review Activities 4 and 5, but a service principal has already been created (no action required).   
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-1">Activity 1</a>: Create an SMB network share on the SQLServer2008VM  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-1">Activity 1</a>: Create an SMB network share on the SQLServer2008VM  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.2"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2">Activity 2</a>: Change MSSQLSERVER service to run under sqlmiuser account  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.2"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2">Activity 2</a>: Change MSSQLSERVER service to run under sqlmiuser account  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.3"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3">Activity 3</a>: Create a backup of TailspinToys database  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.3"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3">Activity 3</a>: Create a backup of TailspinToys database  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.4"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-4">Activity 4</a>: Retrieve SQL MI, SQL Server 2008 VM, and service principal connection information **(review only - no action needed)**   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.4"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-4">Activity 4</a>: Retrieve SQL MI, SQL Server 2008 VM, and service principal connection information **(review only - no action needed)**   
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.5"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-5">Activity 5</a>: Create a service principal **(review only - no action needed)**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.5"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-5">Activity 5</a>: Create a service principal **(review only - no action needed)**  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.6"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-6">Activity 6</a>: Create and run an online data migration project   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.6"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-6">Activity 6</a>: Create and run an online data migration project   
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.7"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-7">Activity 7</a>: Perform migration cutover  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.7"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-7">Activity 7</a>: Perform migration cutover  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.8"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-8">Activity 8</a>: Verify database and transaction log migration  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.8"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-8">Activity 8</a>: Verify database and transaction log migration  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.9"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-9">Activity 9</a>: Update the application  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.1.9"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-9">Activity 9</a>: Update the application  
  
 
 
@@ -81,31 +81,31 @@ Complete activities 1-9 by following the links below. Once you're in Activity 1,
 In this exercise, you'll enable Advanced Data Security, configure Data Discovery and Classification, and review the Vulnerability Assessment. At the end, you'll also receive a pointer to a Dynamic Data Masking lab extension.
   
 
-<h3><p><img style="float: left; margin: 0px 5px 5px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/point1.png?raw=true"><a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-1">Activities</h3></p></a> 
+<h3><p><img style="float: left; margin: 0px 5px 5px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/point1.png?raw=true"><a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-1">Activities</h3></p></a> 
 
 Complete activities 1-3 by following the links below. Once you're in Activity 1, you can continue to the next activity through Activity 3 (the links below all point to different parts of the same overall lab). When are you done with activities 1-3, come back here for the next section (5.3).   
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.2.1"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2-1">Activity 1</a>: Enable Advanced Data Security  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.2.1"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2-1">Activity 1</a>: Enable Advanced Data Security  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.2.2"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2-2">Activity 2</a>: Configure SQL Data Discovery and Classification  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.2.2"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2-2">Activity 2</a>: Configure SQL Data Discovery and Classification  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.2.3"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2-3">Activity 3</a>: Review Advanced Data Security Vulnerability Assessment  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.2.3"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-2-3">Activity 3</a>: Review Advanced Data Security Vulnerability Assessment  
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/pencil2.png?raw=true"><a name="5.3">5.3 Use online secondary for read-only queries (<i>Bonus</i>)</h2></a>
 
 In this exercise, you will look at how you can use the automatically created online secondary for reporting, without feeling the impacts of a heavy transactional load on the primary database. Each database in the SQL MI Business Critical tier is automatically provisioned with several AlwaysON replicas to support the availability SLA. Using [**Read Scale-Out**](https://docs.microsoft.com/azure/sql-database/sql-database-read-scale-out) allows you to load balance Azure SQL Database read-only workloads using the capacity of one read-only replica.  
 
-<h3><p><img style="float: left; margin: 0px 5px 5px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/point1.png?raw=true"><a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-1">Activities</h3></p></a>
+<h3><p><img style="float: left; margin: 0px 5px 5px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/point1.png?raw=true"><a name="5.1.1"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-1">Activities</h3></p></a>
 
 Complete activities 1-3 by following the links below. Once you're in Activity 1, you can continue to the next activity through Activity 3 (the links below all point to different parts of the same overall lab). When are you done with activities 1-3, come back here for the next section (5.4).   
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.3.1"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-1">Activity 1</a>: View Leaderboard report in Tailspin Toys web application  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.3.1"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-1">Activity 1</a>: View Leaderboard report in Tailspin Toys web application  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.3.2"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-2">Activity 2</a>: Update read only connection string  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.3.2"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-2">Activity 2</a>: Update read only connection string  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.3.3"><a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-3">Activity 3</a>: Reload leaderboard report in the Tailspin Toys web application  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="5.3.3"><a href="https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-MigratingToAzureSQLManagedInstance.md#Activity-3-3">Activity 3</a>: Reload leaderboard report in the Tailspin Toys web application  
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 

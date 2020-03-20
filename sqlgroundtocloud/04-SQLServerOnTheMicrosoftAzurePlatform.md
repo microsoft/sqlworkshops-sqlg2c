@@ -261,7 +261,7 @@ Once in SQL MI, several features of Azure SQL Database are examined. [Advanced D
 
 In these activities, you'll set up Azure Migrate, and explore some of the new integrations between Microsoft's Data Migration Assistant (DMA) and Azure Database Migration Services (DMS). Before you begin the assessments, you need to restore a copy of the `TailspinToys` database in your SQL Server 2008 R2 instance. Finally, you will use the Microsoft Data Migration Assistant (DMA) to perform an assessment of the `TailspinToys` database against Azure SQL Database (Single database and Managed Instance). The assessment will provide a report about any feature parity and compatibility issues between the on-premises database and the various services.   
 
-To complete the activities for this module, proceed directly to the Activities in [**Lab: Database Discovery and Assessment for Migrating to Azure**](https://aka.ms/sqlg2c-04) for the hands-on exercises for Tailspin Toys Gaming. When are you done with these activities, come back here and continue to Module 5.  
+To complete the activities for this module, proceed directly to the Activities in [**Lab: Database Discovery and Assessment for Migrating to Azure**](https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/Lab-DatabaseDiscoveryAndAssessmentForMigratingToAzure.md) for the hands-on exercises for Tailspin Toys Gaming. When are you done with these activities, come back here and continue to Module 5.  
 
   
 
