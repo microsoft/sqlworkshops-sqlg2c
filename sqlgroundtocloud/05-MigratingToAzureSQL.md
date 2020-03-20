@@ -11,7 +11,7 @@
 In the previous module, you learned about Azure SQL, the benefits, the options, and how to get there. You reviewed how to assess your on-premises estate, and in this module you'll actually migrate to [Azure SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance).  
 
 
-(<a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>Prerequisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)
+(<a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>Prerequisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)
 
 In this module, you will use the [Azure Database Migration Service](https://azure.microsoft.com/services/database-migration/) (DMS) to migrate the `TailspinToys` database from the on-premises SQL 2008 R2 database to SQL MI. At the end of the module, you'll also explore some of the security and performance features available. The activities in this module include:  
   
@@ -150,4 +150,4 @@ If and when Tailspin Toys chooses to scale their migration to other instances an
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 
-Next, Continue to <a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/06-WhatToUseWhen.md" target="_blank"><i> 06 - What to Use When</i></a>.
+Next, Continue to <a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/06-WhatToUseWhen.md" target="_blank"><i> 06 - What to Use When</i></a>.

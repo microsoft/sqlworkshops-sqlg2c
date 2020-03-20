@@ -23,7 +23,7 @@ The WideWorldImporters company has been evaluating upgrading several SQL Server 
 
 In this workshop module, you will see the capabilities in SQL Server 2019 that can provide solutions for these challenges.
 
-> **NOTE**: <a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>prerequisite</b> page before you start.</a> You'll need all of the items loaded there before you can proceed with the workshop. Instructor led workshops may have provided all the resources in the prerequisites.
+> **NOTE**: <a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>prerequisite</b> page before you start.</a> You'll need all of the items loaded there before you can proceed with the workshop. Instructor led workshops may have provided all the resources in the prerequisites.
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -54,4 +54,4 @@ When you are done with the SQL Server 2019 lab you have completed Module 02 of t
 
 <h2><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b>  Next Steps</b></h2>
 
-Next, Continue to <a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/03-WorkingWithBigDataAndDataScienceBigDataClustersForSQLServer2019.md" target="_blank"><i> 03 - Working with Big Data Clusters on SQL Server 2019</i></a>.
+Next, Continue to <a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/03-WorkingWithBigDataAndDataScienceBigDataClustersForSQLServer2019.md" target="_blank"><i> 03 - Working with Big Data Clusters on SQL Server 2019</i></a>.

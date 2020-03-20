@@ -86,4 +86,4 @@ Before arriving at the workshop, if you intend to complete `04-SQLServerOnTheMic
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 
-Next, Continue to <a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/01-IntroductionAndWorkshopMethodology.md" target="_blank"><i> 01 - Introduction and Workshop Methodology</i></a>.
+Next, Continue to <a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/01-IntroductionAndWorkshopMethodology.md" target="_blank"><i> 01 - Introduction and Workshop Methodology</i></a>.

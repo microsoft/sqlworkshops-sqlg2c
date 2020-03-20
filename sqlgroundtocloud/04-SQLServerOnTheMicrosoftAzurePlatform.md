@@ -15,7 +15,7 @@ In the previous modules, you learned about SQL Server 2019, big data, and more. 
 [4.3](#4.3): Migrating to Azure SQL    
 [4.4](#4.4): Database Discovery and Assessment   
 
-(<a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>Prerequisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)  
+(<a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>Prerequisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)  
 
 SELF-PACED USERS ONLY: If you are using this module self-paced, carefully read through Module 4 of this workshop and the references provided before completing the lab in Module 4.4. You can also check out the [slides that will be presented in a live workshop](https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/slides/SQL%20Server%20on%20the%20Microsoft%20Azure%20Platform.pptx). Then, continue to Module 5.  
 
@@ -261,7 +261,7 @@ Once in SQL MI, several features of Azure SQL Database are examined. [Advanced D
 
 In these activities, you'll set up Azure Migrate, and explore some of the new integrations between Microsoft's Data Migration Assistant (DMA) and Azure Database Migration Services (DMS). Before you begin the assessments, you need to restore a copy of the `TailspinToys` database in your SQL Server 2008 R2 instance. Finally, you will use the Microsoft Data Migration Assistant (DMA) to perform an assessment of the `TailspinToys` database against Azure SQL Database (Single database and Managed Instance). The assessment will provide a report about any feature parity and compatibility issues between the on-premises database and the various services.   
 
-To complete the activities for this module, proceed directly to the Activities in [**Lab: Database Discovery and Assessment for Migrating to Azure**](https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-DatabaseDiscoveryAndAssessmentForMigratingToAzure.md#Activity-1) for the hands-on exercises for Tailspin Toys Gaming. When are you done with these activities, come back here and continue to Module 5.  
+To complete the activities for this module, proceed directly to the Activities in [**Lab: Database Discovery and Assessment for Migrating to Azure**](https://aka.ms/sqlg2c-04) for the hands-on exercises for Tailspin Toys Gaming. When are you done with these activities, come back here and continue to Module 5.  
 
   
 
@@ -286,4 +286,4 @@ To complete the activities for this module, proceed directly to the Activities i
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 
-Next, Continue to <a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/05-MigratingToAzureSQL.md" target="_blank"><i> 05 - Migrating to Azure SQL</i></a>.
+Next, Continue to <a href="https://github.com/microsoft/sqlworkshops-sqlg2c/blob/master/sqlgroundtocloud/05-MigratingToAzureSQL.md" target="_blank"><i> 05 - Migrating to Azure SQL</i></a>.
