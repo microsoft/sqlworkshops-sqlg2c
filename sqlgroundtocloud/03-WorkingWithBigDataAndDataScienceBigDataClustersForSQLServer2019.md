@@ -102,7 +102,7 @@ In this lab, you will review a series of Jupyter Notebooks you can open in Azure
 
 <p><img style="margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/checkmark.png?raw=true"><b>Steps</b></p>
 
-<a href="https://github.com/microsoft/sqlworkshops/tree/master/sqlserver2019bigdataclusters/SQL2019BDC/notebooks
+<a href="https://github.com/microsoft/sqlworkshops-bdc/tree/master/SQL2019BDC/notebooks
 " target="_blank">Open this reference and review the notebooks you find there</a>. 
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
