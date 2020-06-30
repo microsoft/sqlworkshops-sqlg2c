@@ -44,7 +44,7 @@ Tailspin Toys has requested your help in determining where and how they should l
 <!-- TODO: point to Ninar's blog and video when they god live (August 21)-->
 
 There are several different options within Azure SQL, and one visual is shown below.  
- ![Azure SQL Overview](https://github.com/microsoft/sqlworkshops-azuresqllabs/tree/master/graphics/azuresql-overview.png?raw=true)  
+ ![Azure SQL Overview](https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/graphics/azuresql-overview.png?raw=true)  
 
 > Recently, we announced [Azure SQL Database Instance Pools in preview](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-instance-pools), which provide a convenient and cost-efficient way to migrate smaller SQL instances to the cloud at scale.   
 
@@ -130,7 +130,7 @@ Basically, Gen4 hardware offers substantially more memory per vCore. However, Ge
 *Summary*  
 As you've hopefully noticed, while there are a lot of options, Azure is able to provide flexibility so you get exactly what you need, nothing less. A summary of the service tier options with some additional considerations is included below, but be sure to check out [pricing information](https://azure.microsoft.com/en-us/pricing/details/sql-database/managed/) for the latest details.
 
-![Azure SQL tiers](https://github.com/microsoft/sqlworkshops-azuresqllabs/tree/master/graphics/service-tiers-summary.png?raw=true)
+![Azure SQL tiers](https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/graphics/service-tiers-summary.png?raw=true)
 
 
 > Note: Data Migration Assistant (covered later in this module) runs scans that can help you choose some of the options as well as the SKU. [Learn more here](https://docs.microsoft.com/en-us/sql/dma/dma-sku-recommend-sql-db?view=sql-server-2017).
@@ -184,7 +184,7 @@ The general process for [migrating assets to Azure](https://docs.microsoft.com/e
 
 
 In guiding Tailspin Toys through the *data* migration journey, it's helpful to leverage the following process that is specific to data:  
-![Data migration process](https://github.com/microsoft/sqlworkshops-azuresqllabs/tree/master/graphics/data-migration-process.png?raw=true)   
+![Data migration process](https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/graphics/data-migration-process.png?raw=true)   
 
 Below you'll find a detailed survey of some of the resources and tips available for going through each phase of the migration journey to Azure (you can find a [full list of tools based on phase and target here](https://docs.microsoft.com/en-us/azure/dms/dms-tools-matrix)). The number of resources shows the dedication Microsoft and partners have to helping you move successfully to the cloud.  
 
@@ -237,7 +237,7 @@ At the end of these hands-on labs, you will be better able to implement a cloud 
 
 Below is a diagram of the solution architecture that Tailspin Toys decided to go with, and what you will build in this lab. Please study this carefully, so you understand the whole of the solution as you are working on the various components.
 
-![This solution diagram includes a virtual network containing SQL MI in a isolated subnet, along with a JumpBox VM and Database Migration Service in a management subnet. The MI Subnet displays both the primary managed instance, along with a read-only replica, which is accessed by reports from the web app. The web app connects to SQL MI via a subnet gateway and point-to-site VPN. The web app is published to App Services using Visual Studio 2019. An online data migration is conducted from the on-premises SQL Server to SQL MI using the Azure Database Migration Service, which reads backup files from an SMB network share.](https://github.com/microsoft/sqlworkshops-azuresqllabs/tree/master/graphics/preferred-solution-architecture.png?raw=true "Preferred Solution diagram")
+![This solution diagram includes a virtual network containing SQL MI in a isolated subnet, along with a JumpBox VM and Database Migration Service in a management subnet. The MI Subnet displays both the primary managed instance, along with a read-only replica, which is accessed by reports from the web app. The web app connects to SQL MI via a subnet gateway and point-to-site VPN. The web app is published to App Services using Visual Studio 2019. An online data migration is conducted from the on-premises SQL Server to SQL MI using the Azure Database Migration Service, which reads backup files from an SMB network share.](https://github.com/microsoft/sqlworkshops-azuresqllabs/blob/master/graphics/preferred-solution-architecture.png?raw=true "Preferred Solution diagram")
 
 Throughout the solution, you will use [Azure Migrate](https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview) as the central hub to track the discovery, assessment, and migration of Tailspin Toys. The solution begins with using the [Microsoft Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017) to perform assessments of feature parity and compatibility of the on-premises SQL Server 2008 R2 database against both Azure SQL Database (Azure SQL DB) and Azure SQL Database Managed Instance (SQL MI), with the goal of migrating the `TailspinToys` database into an Azure PaaS offering with minimal or no changes. After completing the assessments and reviewing the findings, the SQL Server 2008 R2 database is migrated into SQL MI using the Azure Database Migration Service's online data migration option. This allows the database to be migrated with little to no downtime, by using a backup and transaction logs stored in an SMB network share.  
 
