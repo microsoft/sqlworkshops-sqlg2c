@@ -35,7 +35,7 @@ Instructor led workshops will use modules from the SQL Server 2019 lab along wit
 
 <h3><img style="margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/checkmark.png?raw=true"><b>Activity Steps</b></h3>
 
-To complete this module, go to https://github.com/microsoft/sqlworkshops/blob/master/sql2019lab/README.md.
+To complete this module, go to [https://github.com/microsoft/sqlworkshops/blob/master/sql2019lab/README.md](https://github.com/microsoft/sqlworkshops-sql2019lab).
 
 When you are done with the SQL Server 2019 lab you have completed Module 02 of the SQL Server Ground to Cloud Workshop! Proceed to the next module using the link in Next Steps below.
 
